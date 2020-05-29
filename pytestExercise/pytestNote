@@ -1,0 +1,42 @@
+1.通过python -m pytest调用pytest调用pytest
+python -m pytest [...]调用方式几乎等同于pytest [...]，
+调用后，会将当前目录添加到sys.path
+
+2.退出码
+pytest有以下6种退出码：
+Exit code 0: 找到所以测试用例并测试通过
+Exit code 1: 找到测试用例并运行但是部分测试用例运行失败
+Exit code 2：用户中断了测试
+Exit code 3：执行过程中发生了内部错误
+Exit code 4：pytest命令行使用错误
+Exit code 5：没有找到任何测试用例
+
+3.版本信息，参数名，环境变量的帮助
+pytest --version  #显示pytest的import的路径
+pytest --fixtures #显示内置的函数参数
+pytest -h | --help #帮助信息
+
+4.第一（N）次测试失败后停止
+pytest -x   #第1次测试失败后停止测试
+pytest --maxfail=2  #第2次测试失败后停止测试
+
+5.指定/选择测试用例
+    5.1对模块中进行测试：
+    pytest test_mod.py
+    5.2对文件夹中进行测试:
+    pytest testing/
+    5.3通过关键字表达式来进行测试：
+    pytest -k "MyClass and not method"
+    5.4通过节点id来进行测试
+    可以通过下面方式运行模块中的指定测试用例：
+    pytest test_mod.py::test_func
+    也可以通过下面这种方式:
+    pytest test_mod.py::TestClass::test_method
+
+6.测试失败时自动调用PDB
+    pytest允许通过命令行使能在测试失败时自动调用python的内置调试工具PDB：
+    pytest --pdb
+    pytest -x --pdb #首次失败时调用pdb,然后结束测试进程
+    pytest --pdb --maxfail=3    #前三次失败的时候调用pdb
+
+
