@@ -52,6 +52,7 @@ class BinTree:
         self.post_order(t.rchild)
         print(t.data, end=' ')
 
+    # 计算二叉树的深度
     def depth(self, t):
         # 判断二叉树为空
         if t == None:
@@ -62,6 +63,7 @@ class BinTree:
             # 返回max(左子树,右子树）深度+1（根节点）
             return m+1 if m > n else n+1
 
+    # 计算二叉树节点的个数
     def nodecount(self, t):
         # 判断二叉树为空
         if t == None:
