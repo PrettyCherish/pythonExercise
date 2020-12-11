@@ -1,0 +1,21 @@
+2020-06-23 18:21:24,917 - mylogger - DEBUG - 1
+2020-06-23 18:21:24,918 - mylogger - INFO - 2
+2020-06-23 18:21:24,918 - mylogger - WARNING - 3
+2020-06-23 18:21:24,918 - mylogger - ERROR - 4
+2020-06-23 18:21:24,918 - mylogger - CRITICAL - 5
+2020-06-23 18:44:14,083 - mylogger - ERROR - Failed to open file
+Traceback (most recent call last):
+  File "E:/Pythonworkspace/pythonExercise/pythonbasic/loggingmodule/functionlogging.py", line 29, in <module>
+    open('luanluan.txt')
+FileNotFoundError: [Errno 2] No such file or directory: 'luanluan.txt'
+2020-06-23 18:44:14,108 - mylogger - DEBUG - 1
+2020-06-23 18:44:14,108 - mylogger - INFO - 2
+2020-06-23 18:44:14,108 - mylogger - WARNING - 3
+2020-06-23 18:44:14,109 - mylogger - ERROR - 4
+2020-06-23 18:44:14,109 - mylogger - CRITICAL - 5
+2020-06-23 18:44:27,288 - mylogger - ERROR - Failed to open file
+2020-06-23 18:44:27,288 - mylogger - DEBUG - 1
+2020-06-23 18:44:27,288 - mylogger - INFO - 2
+2020-06-23 18:44:27,288 - mylogger - WARNING - 3
+2020-06-23 18:44:27,288 - mylogger - ERROR - 4
+2020-06-23 18:44:27,288 - mylogger - CRITICAL - 5

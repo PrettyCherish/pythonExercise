@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 11,
+  "reportUrl" : "http://127.0.0.1/jenkins/job/first_job/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+} ]

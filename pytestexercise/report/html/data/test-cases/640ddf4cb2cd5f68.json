@@ -1,0 +1,59 @@
+{
+  "uid" : "640ddf4cb2cd5f68",
+  "name" : "test_add[1-hi-unsupported operand type(s) for +: 'int' and 'str']",
+  "fullName" : "test_useallure#test_add",
+  "historyId" : "c3650207868ea22f33abbd8720784882",
+  "time" : {
+    "start" : 1591350679563,
+    "stop" : 1591350680564,
+    "duration" : 1001
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_useallure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9J7ANVF"
+  }, {
+    "name" : "thread",
+    "value" : "11248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_useallure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "'hi'"
+  }, {
+    "name" : "result",
+    "value" : "'unsupported operand type(s) for +: 'int' and 'str''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "640ddf4cb2cd5f68.json",
+  "parameterValues" : [ "1", "'hi'", "'unsupported operand type(s) for +: 'int' and 'str''" ]
+}

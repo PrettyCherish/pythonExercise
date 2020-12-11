@@ -1,0 +1,59 @@
+{
+  "uid" : "c4c7feb005e106af",
+  "name" : "test_add[hi -wuya-hi wuya]",
+  "fullName" : "test_useallure#test_add",
+  "historyId" : "dc8ca021f8435c7f7e37ecffa8953cf0",
+  "time" : {
+    "start" : 1591350677508,
+    "stop" : 1591350678508,
+    "duration" : 1000
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_useallure"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9J7ANVF"
+  }, {
+    "name" : "thread",
+    "value" : "11248-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_useallure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'hi '"
+  }, {
+    "name" : "b",
+    "value" : "'wuya'"
+  }, {
+    "name" : "result",
+    "value" : "'hi wuya'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4c7feb005e106af.json",
+  "parameterValues" : [ "'hi '", "'wuya'", "'hi wuya'" ]
+}

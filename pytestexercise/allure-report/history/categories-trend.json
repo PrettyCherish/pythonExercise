@@ -1,0 +1,6 @@
+[ {
+  "buildOrder" : 11,
+  "reportUrl" : "http://127.0.0.1/jenkins/job/first_job/11/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+} ]
